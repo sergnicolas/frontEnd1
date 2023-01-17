@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+</head>
+
+<body>
+    <header>
+        <section class="banner">
+            <p class="banner_offers">Grandes ofertas en comederos</p>
+            <select name="banner__idiom">
+                <option value="value2">Ingles</option>
+                <option value="value1" selected>Español</option>
+            </select>
+            <select name="banner_currency">
+                <option value="value1">$ARG</option>
+                <option value="value2">$US</option>
+            </select>
+        </section>
+        <section id="header">
+            <img class="header__logo" src="./img/logo.svg" alt="logo">
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <img src="./img/isologoMiniaturaBlanco.svg" alt="isologo patita">
+                    <li><a>Categorías</a></li>
+                    <img src="./img/isologoMiniaturaBlanco.svg" alt="isologo patita">
+                    <li><a>Pets</a></li>
+                    <img src="./img/isologoMiniaturaBlanco.svg" alt="isologo patita">
+                    <li><a>Nosotros</a></li>
+                    <img src="./img/isologoMiniaturaBlanco.svg" alt="isologo patita">
+                    <li><a>Contactanos</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+    <main>
+        <!-- main-banner -->
+        <section id="main-banner">
+            <img class="main-banner_img-background" src="./img/comidaPerroBackground.png"
+                alt="comida de comidaPerroBackground">
+            <p class="main-banner__title">!Es un placer tenerte aquí!</p>
+            <p class="main-banner__info">!Comedores en descuento!</p>
+            <form class="main-banner__form" action="https://google.com">
+                <input class="main-banner__input" type="submit" value="COMEDORES" />
+            </form>
+        </section>
+
+        <!-- main-products -->
+        <section class="main-products">
+            <img class="main-products__paw" src="./img/isologoGrandeNaranja.svg" alt="">
+            <h2 class="main-products__title">Productos Destacados</h2>
+            <!-- nav products -->
+            <nav class="main-products__nav">
+                <ul class="main-products__nav__list">
+                    <li class="main-products__nav__item"><a>Comedores</a></li>
+                    <li class="main-product__nav__separator">-</li>
+                    <li class="main-products__nav__item"><a>Accesorios</a></li>
+                    <li class="main-product__nav__separator">-</li>
+                    <li class="main-products__nav__item"><a>Comida</a></li>
+                </ul>
+            </nav>
+            <!-- cards -->
+            <section class="card">
+                <img src="./img/churrasquito.png" alt="churrasquito">
+                <p class="card__title">Jueguete Churrasquito</p>
+                <p class="card__price">$150</p>
+                <img src="./img/comedero.png" alt="comedero">
+                <p class="card__title">Comedero para perro</p>
+                <p class="card__price">$250</p>
+                <img src="./img/huesitos.png" alt="huesito">
+                <p class="card__title">Juguete huesitos</p>
+                <p class="card__price">$650</p>
+            </section>
+        </section>
+
+        <!-- contact-us -->
+        <section class="contact-us">
+            <h2 class="contact-us__title">Contáctanos</h2>
+            <form class="contact-us__form" action="registro" method="post">
+                <input class="contact-us__input" type="text" name="name&surname" required
+                    placeholder="Nombre y Apellido">
+                <input class="contact-us__input" type="email" name="email" required
+                    placeholder="Ingresá tu correo electrónico">
+                <input class="contact-us__input" type="tel" name="telephone" placeholder="Teléfono">
+                <input class="contact-us__buttom contact-us__reset" type="reset" value="Resetear">
+                <input class="contact-us__buttom contact-us__submit" type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="banner-footer">
+            <div class="banner-footer__info">
+                <img src="./img/cartaVolandoBlanco.png" alt="icono carta volando">
+                <p>Suscríbete para más novedades</p>
+            </div>
+
+            <form class="banner-footer__form" action="registro" method="post">
+                <input class="banner-footer__input" type="email" name="email" required
+                    placeholder="Ingresá tu correo electrónico">
+                <input class="banner-footer__submit" type="submit" value="Suscribirme">
+            </form>
+        </section>
+        <section id="downFooter">
+            <div id="infoFooter">
+                <img src="./img/iconoLocacion.png" alt="icono de ubicación">
+                <div>
+                    <p>Localidad</p>
+                    <p>Calle - Provincia</p>
+                </div>
+                <img src="./img/iconoTelefono.png" alt="icono de teléfono">
+                <div>
+                    <p>Teléfono</p>
+                    <p>Número de teléfono</p>
+                </div>
+                <img src="./img/iconoEmail.png" alt="icono de email">
+                <div>
+                    <p>Correo Electrónico</p>
+                    <p>Dirección de correo</p>
+                </div>
+            </div>
+            <img src="./img/logo.svg" alt="logo">
+        </section>
+    </footer>
+
+</body>
+
+</html>
